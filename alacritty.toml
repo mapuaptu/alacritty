@@ -30,7 +30,6 @@ size = 12.9
 
 [keyboard]
 bindings = [
-  # { key = "д", mods = "Alt", chars = "027"}
-  # { key = "L", mods = "Alt", chars="^]"}
+  { key = "Q", mods = "Control", action="quit"}
 ]
 
