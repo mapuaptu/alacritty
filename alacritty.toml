@@ -1,0 +1,36 @@
+import = [
+  "~/.config/alacritty/tokio-night.toml"
+]
+
+live_config_reload = true
+
+[window]
+decorations = "none"
+opacity = 0.6
+blur = true
+startup_mode = "maximized"
+# padding = { x = 0, y = 0 }
+# dimensions = { columns = 10, lines = 10 }
+dynamic_padding = true
+
+[font]
+# normal = { family = "CaskaydiaMonoNerdFontMono", style = "Regular" }
+# bold = { family = "CaskaydiaMonoNerdFontMono", style = "Bold" }
+# italic = { family = "CaskaydiaMonoNerdFontMono", style = "Italic" }
+# bold_italic = { family = "CaskaydiaMonoNerdFontMono", style = "Bold Italic" }
+normal = { family = "CaskaydiaCoveNerdFontMono", style = "Regular" }
+bold = { family = "CaskaydiaCoveNerdFontMono", style = "Bold" }
+italic = { family = "CaskaydiaCoveNerdFontMono", style = "Italic" }
+bold_italic = { family = "CaskaydiaCoveNerdFontMono", style = "Bold Italic" }
+
+# some font sizes causes paddings in vim
+
+size = 12.9
+# offset = { x = 0, y = 0 }
+
+[keyboard]
+bindings = [
+  # { key = "д", mods = "Alt", chars = "027"}
+  # { key = "L", mods = "Alt", chars="^]"}
+]
+
