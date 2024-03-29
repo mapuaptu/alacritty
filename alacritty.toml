@@ -6,7 +6,7 @@ live_config_reload = true
 
 [window]
 decorations = "none"
-opacity = 0.6
+opacity = 0.8
 blur = true
 startup_mode = "maximized"
 # padding = { x = 0, y = 0 }
@@ -30,6 +30,10 @@ size = 12.9
 
 [keyboard]
 bindings = [
-  { key = "Q", mods = "Control", action="quit"}
+  { key = "Q", mods = "Control", action="quit"},
+  { key = "[", mods = "Control", chars="\u001B\u001B"},
+  { key = "Х", mods = "Control", chars="\u001B\u001B"},
+  { key = "Д", mods = "Alt", chars="\u001B"},
+  { key = "Р", mods = "Alt", chars="\u001B"},
 ]
 
