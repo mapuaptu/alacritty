@@ -9,15 +9,9 @@ decorations = "none"
 opacity = 0.8
 blur = true
 startup_mode = "maximized"
-# padding = { x = 0, y = 0 }
-# dimensions = { columns = 10, lines = 10 }
 dynamic_padding = true
 
 [font]
-# normal = { family = "CaskaydiaMonoNerdFontMono", style = "Regular" }
-# bold = { family = "CaskaydiaMonoNerdFontMono", style = "Bold" }
-# italic = { family = "CaskaydiaMonoNerdFontMono", style = "Italic" }
-# bold_italic = { family = "CaskaydiaMonoNerdFontMono", style = "Bold Italic" }
 normal = { family = "CaskaydiaCoveNerdFontMono", style = "Regular" }
 bold = { family = "CaskaydiaCoveNerdFontMono", style = "Bold" }
 italic = { family = "CaskaydiaCoveNerdFontMono", style = "Italic" }
@@ -26,14 +20,20 @@ bold_italic = { family = "CaskaydiaCoveNerdFontMono", style = "Bold Italic" }
 # some font sizes causes paddings in vim
 
 size = 12.9
-# offset = { x = 0, y = 0 }
 
 [keyboard]
 bindings = [
   { key = "Q", mods = "Control", action="quit"},
+
   { key = "[", mods = "Control", chars="\u001B\u001B"},
   { key = "Х", mods = "Control", chars="\u001B\u001B"},
+
   { key = "Д", mods = "Alt", chars="\u001B"},
   { key = "Р", mods = "Alt", chars="\u001B"},
+
+  { key = "Р", mods = "Control", chars="\u0008"},
+  { key = "Д", mods = "Control", chars="\u000C"},
+  { key = "О", mods = "Control", chars="\u000A"},
+  { key = "Л", mods = "Control", chars="\u000B"},
 ]
 
