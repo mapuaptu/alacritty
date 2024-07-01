@@ -12,6 +12,10 @@ startup_mode = "maximized"
 dynamic_padding = true
 
 [font]
+# normal = { family = "CaskaydiaCoveNerdFontMono", style = "Regular" }
+# bold = { family = "CaskaydiaCoveNerdFontMono", style = "Bold" }
+# italic = { family = "CaskaydiaCoveNerdFontMono", style = "Italic" }
+# bold_italic = { family = "CaskaydiaCoveNerdFontMono", style = "Bold Italic" }
 normal = { family = "CaskaydiaCoveNerdFont", style = "Regular" }
 bold = { family = "CaskaydiaCoveNerdFont", style = "Bold" }
 italic = { family = "CaskaydiaCoveNerdFont", style = "Italic" }
