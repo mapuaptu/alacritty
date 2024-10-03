@@ -23,7 +23,7 @@ bold_italic = { family = "CaskaydiaCoveNerdFont", style = "Bold Italic" }
 
 # some font sizes causes paddings in vim
 
-size = 13.1
+size = 12.9
 
 [keyboard]
 bindings = [
